@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<!-- Кодировка страницы -->
+	<meta charset="UTF-8">
+	<!-- Отображение на устройствах -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- maximum-scale=1.0, user-scalable=1.0 -->
+	<!-- Заголовок страницы -->
+	<title>title</title>
+	<!-- Файл со стилями -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<!-- Отображаемое тело страницы -->
+<body>
+	<!-- Оболочка -->
+	<div class="wrapper">
+		<!-- Контент -->
+		<header class="header">
+			<nav class="header__nav nav">
+				<ul class="nav__list">
+					<li>
+						<a href="#" class="nav__link">text</a>
+					</li>
+					<li>
+						<a href="#" class="nav__link">text</a>
+					</li>
+					<li>
+						<a href="#" class="nav__link">text</a>
+					</li>
+				</ul>
+				
+				<a class="header__burger">
+					<span></span>
+				</a>
+			</nav>
+			<div class="menu__burger menu">
+				<div class="menu_list">
+					<li>
+						<a href="#" class="menu__link">text</a>
+					</li>
+					<li>
+						<a href="#" class="menu__link">text</a>
+					</li>
+					<li>
+						<a href="#" class="menu__link">text</a>
+					</li>
+					<li>
+						<a href="#" class="menu__link">text</a>
+					</li>
+				</div>
+				<div class="menu__button">
+					<a href="#popup" class="popup-btn btn">Open pop-up button</a>
+				</div>
+			</div>
+		</header>
+		<main class="main">
+			<section class="slider">
+				<div class="slider__item">
+					<h1 class="slider__title">H1 text</h1>
+					<a href="#popup" class="popup-btn btn">Open pop-up button</a>
+				</div>
+				<div class="slider__item">
+					<h1 class="slider__title">H1 text</h1>
+					<a href="#popup" class="popup-btn btn">Open pop-up button</a>
+				</div>
+				<div class="slider__item">
+					<h1 class="slider__title">H1 text</h1>
+					<a href="#popup" class="popup-btn btn">Open pop-up button</a>
+				</div>
+				<div class="slider__item">
+					<h1 class="slider__title">H1 text</h1>
+					<a href="#popup" class="popup-btn btn">Open pop-up button</a>
+				</div>
+				<div class="slider__item">
+					<h1 class="slider__title">H1 text</h1>
+					<a href="#popup" class="popup-btn btn">Open pop-up button</a>
+				</div>
+			</section>
+
+			<section class="blocks blocks--1">
+				<h2 class="section__title">H2 text</h2>
+				<div class="blocks__grid-row">
+					<div class="grid__item grid__item--1"><p>1</p></div>
+					<div class="grid__item grid__item--2"><p>2</p></div>
+				</div>
+				<div class="blocks__grid-row">
+					<div class="grid__item grid__item--3"><p>3</p></div>
+					<div class="grid__item grid__item--4"><p>4</p></div>
+				</div>
+			</section>
+
+			<section class="blocks blocks--2">
+				<h2 class="section__title">H2 text</h2>
+				<div class="blocks__row row">
+					<div class="row__item"></div>
+					<div class="row__item"></div>
+					<div class="row__item"></div>
+					<div class="row__item"></div>
+					<div class="row__item"></div>
+				</div>
+			</section>
+
+			<section class="content">
+				<h2 class="content__title">Text utp</h2>
+				<a href="#popup" class="content__btn btn">Open pop-up button</a>
+			</section>
+		</main>
+		
+		<footer class="footer">
+			<div class="footer__text">
+				<p>text</p>
+			</div>
+			<div class="footer__text">
+				<p>text</p>
+			</div>
+			<div class="footer__text">
+				<p>text</p>
+			</div>
+			<div class="footer__text">
+				<p>text</p>
+			</div>
+		</footer>
+
+		<div id="popup" class="popup">
+			<a href="#header" class="popup__area"></a>
+			<div class="popup__body">
+				<div class="popup__content">
+					<a href="#header" class="popup__close">X</a>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<!-- -------------------------------------------- Подключенные скрипты ------------------------------------------------------- -->
+
+    <!-- JS-библиотека jQuery -->
+    <script src="libs/jquery-3.6.0.min.js"></script>
+    <!-- JS-плагины и библиотеки -->
+	<script src="js/slick.min.js"></script>i
+    <!-- Мои файлы скриптов -->
+	<script src="js/slider-script.js"></script>
+	<script src="js/burger.js"></script>
+</body>
+</html>
